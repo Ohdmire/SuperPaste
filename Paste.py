@@ -3,7 +3,7 @@ from pynput.keyboard import Controller,Listener,Key
 import time
 
 def paste():
-    time.sleep(1)
+    time.sleep(0.2)
     #按下后间隔1s
     i=pyperclip.paste()
     keyboard = Controller()
