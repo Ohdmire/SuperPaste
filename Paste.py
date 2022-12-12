@@ -4,7 +4,7 @@ import time
 
 def paste():
     time.sleep(0.2)
-    #按下后间隔1s
+    #按下后间隔0.2s
     i=pyperclip.paste()
     keyboard = Controller()
     keyboard.type(i)
